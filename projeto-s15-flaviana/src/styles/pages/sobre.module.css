@@ -1,0 +1,48 @@
+.aboutContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+
+.curiositysContainer{
+    width: 50%;
+    align-items: center;
+    text-align: center;
+    margin: 2rem;
+}
+
+.aboutmeContainer{
+    width: 40%;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem;
+}
+
+.curiositysImg{
+    width: 100%;
+}
+
+.aboutmeText{
+    margin: 2rem 0;
+    line-height: 1.5rem;
+    color: grey;
+}
+
+h2{
+    font-size: 3rem;
+    color: rgb(69, 68, 68);
+}
+
+@media(max-width:715px){
+    .aboutContainer{
+        flex-direction: column;
+    }
+    .curiositysContainer{
+        width: 100%;
+    }
+    .aboutmeContainer{
+        width: 70%;
+    }
+}

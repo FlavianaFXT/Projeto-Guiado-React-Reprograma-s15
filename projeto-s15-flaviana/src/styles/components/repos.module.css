@@ -1,0 +1,62 @@
+.cardRepo{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+@media(max-width: 1000px){
+    .cardRepo{
+        width:80%;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.repository{
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding: 10px;
+    border: solid rosybrown 2px;
+    background-color: aliceblue;
+    border-radius: 5px;
+    align-items: center;
+    max-width: 80%;
+}
+
+.repositoryTitle{
+   color: #686AAC;
+   padding: 1rem;
+    /* margin: 1rem 0; */
+}
+
+.repositoryDescription{
+    color: #333232;
+    margin: 1rem 0;
+}
+
+.language{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 12px;
+    font-weight: bolder;
+}
+
+.languageText{
+    color: #242121;
+    font-style: italic;
+}
+
+.repositoryText{
+    color: #686CCA;
+    margin: 1rem 0.5rem;
+}
+
+.repositoryLink{
+    margin: 1rem 0;
+    color: #686CCA;
+}

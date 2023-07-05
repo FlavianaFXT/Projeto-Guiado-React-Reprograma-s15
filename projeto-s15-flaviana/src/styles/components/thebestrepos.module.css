@@ -1,0 +1,38 @@
+.repository{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 25%;
+    height: 30%;
+    border: 1px solid #686AAC;
+    border-radius: 5px;
+    padding: 2rem;
+    background-color: #b2b4ee;
+}
+
+@media(max-width:1000px){
+    .repository{
+        width: 50%;
+    }
+}
+
+@media(max-width:600px){
+    .repository{
+        width: 80%;
+    }
+}
+
+.thebestImg{
+    margin: 2rem 0;
+}
+
+.language{
+    display: flex;
+    justify-content: center;
+    padding: 1rem 0;
+}
+
+.repositoryLink{
+    color: #686AAC;
+    font-weight: bold;
+}

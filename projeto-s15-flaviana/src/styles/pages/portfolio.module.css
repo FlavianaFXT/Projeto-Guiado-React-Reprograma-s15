@@ -1,0 +1,36 @@
+.repositoriesContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 6rem;
+}
+
+.title{
+    color: #686AAC;
+    padding-top: 3rem;
+    text-align: center;
+}
+
+.stars{
+    display: flex;
+    justify-content: center;
+}
+
+.star{
+    width:5%;
+}
+
+.theBestRepos{
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    margin: 5rem;
+}
+
+@media(max-width: 900px){
+    .theBestRepos{
+        display: flex;
+        flex-direction: column;
+    }
+}

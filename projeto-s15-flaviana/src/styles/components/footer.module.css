@@ -1,0 +1,33 @@
+.footerContainer{
+    background-color: #686aac;
+    align-items: center;
+    height: 3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.footerContent{
+    color: #fff;
+    font-size: 1 rem;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.logoReprograma{
+    width: 10%;
+    margin: 0;
+    padding: 0;
+}
+
+@media(max-width:715px){
+    .footerContent{
+        font-size: 0.7rem;
+    }
+
+    .logoReprograma{
+        width: 20%;
+    }
+}
+

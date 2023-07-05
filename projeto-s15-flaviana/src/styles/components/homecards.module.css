@@ -1,0 +1,22 @@
+.cardContainer{
+    text-align: center;
+    margin: 2rem;
+    width: 30%;
+}
+
+@media(max-width: 720px){
+    .cardContainer{
+        width: 80%;
+    }
+}
+
+.cardTitle{
+    padding: 1rem;
+    font-size: 2rem;
+    color: #474a51
+}
+
+.cardDescription{
+    font-size: 1rem;
+    color: #474a51
+}
