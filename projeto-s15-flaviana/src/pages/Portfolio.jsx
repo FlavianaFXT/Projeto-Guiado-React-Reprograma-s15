@@ -4,7 +4,7 @@ import star from '../assets/star.png'
 import digimon from '../assets/digimon.gif'
 import caatinga from '../assets/caatinga-ilustrada.gif'
 import githubsearch from '../assets/githubsearch.gif'
-import Repos from "../components/repos"
+import Repos from "../components/Repos"
 import Styles from "../styles/pages/portfolio.module.css"
 import Thebestrepos from "../components/Thebestrepos"
 
