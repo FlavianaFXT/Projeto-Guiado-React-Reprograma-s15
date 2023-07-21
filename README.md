@@ -78,5 +78,6 @@ Todas as páginas possuem os componentes:
 >Status:
 CONCLUIDO
 
-Confira o resultado final: https://projeto-react-s15-reprograma-ynp8.vercel.app/
+Confira o resultado final: https://meu-portfolio-seven-ashy.vercel.app/
+
 
