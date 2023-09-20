@@ -1,6 +1,5 @@
 # Projeto-Guiado-React-Reprograma-s15 <h1 align="center">
-  <img src="assets/reprograma-fundos-claros.png" alt="logo reprograma" width="500">
-</h1>
+  ![reprograma-fundos-claros](https://github.com/FlavianaFXT/Projeto-Guiado-React-Reprograma-s15/assets/113718720/88e74144-47d5-4149-8ebd-1514ccd14d71)
 
 # Turma: On23-TodasEmTech-Santander-ReactJS-III
 
